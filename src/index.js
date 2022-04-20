@@ -5,5 +5,5 @@ class Node {
   }
 }
 
-let vals = new Node("A", "B", "C", "D");
+let a = new Node("A");
 console.log(vals);
