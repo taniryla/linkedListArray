@@ -24,8 +24,6 @@ c.next = d;
 //   }
 // };
 
-// printLinkedList(a);
-
 // recursive
 
 const printLinkedList = (head) => {
@@ -33,3 +31,5 @@ const printLinkedList = (head) => {
   console.log(head.val);
   printLinkedList(head.next);
 };
+
+printLinkedList(a);
