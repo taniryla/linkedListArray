@@ -6,4 +6,4 @@ class Node {
 }
 
 let a = new Node("A");
-console.log(vals);
+console.log(a);
