@@ -16,12 +16,20 @@ c.next = d;
 
 // traversal algorithm
 
-const printLinkedList = (head) => {
-  let current = head;
-  while (current !== null) {
-    console.log(current.val);
-    current = current.next;
-  }
-};
+// const printLinkedList = (head) => {
+//   let current = head;
+//   while (current !== null) {
+//     console.log(current.val);
+//     current = current.next;
+//   }
+// };
 
-printLinkedList(a);
+// printLinkedList(a);
+
+// recursive
+
+const printLinkedList = (head) => {
+  if (head === null) return;
+  console.log(head.val);
+  printLinkedList(head.next);
+};
