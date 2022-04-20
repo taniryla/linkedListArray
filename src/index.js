@@ -4,3 +4,6 @@ class Node {
     this.next = null;
   }
 }
+
+let vals = new Node("A", "B", "C", "D");
+console.log(vals);
